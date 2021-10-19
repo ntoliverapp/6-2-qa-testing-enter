@@ -4,5 +4,8 @@ module.exports = {
     }, 
     greeting: (name) => {
         return `Hello, ${name}`
+    }, 
+    add: (numOne, numTwo) => {
+        return numOne + numTwo
     }
 }
